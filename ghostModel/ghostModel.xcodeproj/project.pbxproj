@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D24B4D1AED075E00FA6932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D24B4C1AED075E00FA6932 /* main.m */; };
+		D5D24B541AED076E00FA6932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D24B531AED076E00FA6932 /* Foundation.framework */; };
+		D5D24B571AED079C00FA6932 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D24B561AED079C00FA6932 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D5D24B5C1AED07AB00FA6932 /* createModelFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D24B591AED07AB00FA6932 /* createModelFile.m */; };
+		D5D24B5D1AED07AB00FA6932 /* OTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D24B5B1AED07AB00FA6932 /* OTypes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5D24B471AED075E00FA6932 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5D24B491AED075E00FA6932 /* ghostModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ghostModel; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D24B4C1AED075E00FA6932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5D24B531AED076E00FA6932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5D24B551AED079C00FA6932 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		D5D24B561AED079C00FA6932 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		D5D24B581AED07AB00FA6932 /* createModelFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createModelFile.h; sourceTree = "<group>"; };
+		D5D24B591AED07AB00FA6932 /* createModelFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = createModelFile.m; sourceTree = "<group>"; };
+		D5D24B5A1AED07AB00FA6932 /* OTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTypes.h; sourceTree = "<group>"; };
+		D5D24B5B1AED07AB00FA6932 /* OTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTypes.m; sourceTree = "<group>"; };
+		D5D24B5E1AED07B100FA6932 /* JSON.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSON.geojson; sourceTree = "<group>"; };
+		D5D24B5F1AED084200FA6932 /* ghostModel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ghostModel-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D24B461AED075E00FA6932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D24B541AED076E00FA6932 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5D24B401AED075E00FA6932 = {
+			isa = PBXGroup;
+			children = (
+				D5D24B531AED076E00FA6932 /* Foundation.framework */,
+				D5D24B4B1AED075E00FA6932 /* ghostModel */,
+				D5D24B4A1AED075E00FA6932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D24B4A1AED075E00FA6932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D24B491AED075E00FA6932 /* ghostModel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D24B4B1AED075E00FA6932 /* ghostModel */ = {
+			isa = PBXGroup;
+			children = (
+				D5D24B5F1AED084200FA6932 /* ghostModel-Prefix.pch */,
+				D5D24B5E1AED07B100FA6932 /* JSON.geojson */,
+				D5D24B581AED07AB00FA6932 /* createModelFile.h */,
+				D5D24B591AED07AB00FA6932 /* createModelFile.m */,
+				D5D24B5A1AED07AB00FA6932 /* OTypes.h */,
+				D5D24B5B1AED07AB00FA6932 /* OTypes.m */,
+				D5D24B551AED079C00FA6932 /* JSONKit.h */,
+				D5D24B561AED079C00FA6932 /* JSONKit.m */,
+				D5D24B4C1AED075E00FA6932 /* main.m */,
+			);
+			path = ghostModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D24B481AED075E00FA6932 /* ghostModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D24B501AED075E00FA6932 /* Build configuration list for PBXNativeTarget "ghostModel" */;
+			buildPhases = (
+				D5D24B451AED075E00FA6932 /* Sources */,
+				D5D24B461AED075E00FA6932 /* Frameworks */,
+				D5D24B471AED075E00FA6932 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ghostModel;
+			productName = ghostModel;
+			productReference = D5D24B491AED075E00FA6932 /* ghostModel */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D24B411AED075E00FA6932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "赵锋";
+				TargetAttributes = {
+					D5D24B481AED075E00FA6932 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = D5D24B441AED075E00FA6932 /* Build configuration list for PBXProject "ghostModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5D24B401AED075E00FA6932;
+			productRefGroup = D5D24B4A1AED075E00FA6932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D24B481AED075E00FA6932 /* ghostModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D24B451AED075E00FA6932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D24B5C1AED07AB00FA6932 /* createModelFile.m in Sources */,
+				D5D24B571AED079C00FA6932 /* JSONKit.m in Sources */,
+				D5D24B4D1AED075E00FA6932 /* main.m in Sources */,
+				D5D24B5D1AED07AB00FA6932 /* OTypes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5D24B4E1AED075E00FA6932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5D24B4F1AED075E00FA6932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5D24B511AED075E00FA6932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "ghostModel/ghostModel-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5D24B521AED075E00FA6932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = "ghostModel/ghostModel-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D24B441AED075E00FA6932 /* Build configuration list for PBXProject "ghostModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D24B4E1AED075E00FA6932 /* Debug */,
+				D5D24B4F1AED075E00FA6932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D24B501AED075E00FA6932 /* Build configuration list for PBXNativeTarget "ghostModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D24B511AED075E00FA6932 /* Debug */,
+				D5D24B521AED075E00FA6932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D24B411AED075E00FA6932 /* Project object */;
+}
